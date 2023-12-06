@@ -13,12 +13,12 @@ import {
   tictactoe,
   akprasha,
   quizey,
-  voot,
   vendor,
   coverhunt,
   dcc,
   kelhel,
   microverse,
+  foodexpress,
 } from "../assets";
 
 export const navLinks = [
@@ -120,6 +120,28 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
+    name: "Food Express",
+    description: `A clone site for Food delivery platform using swiggy API`,
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: foodexpress,
+    repo: "https://github.com/nawedzaman/FoodExpress",
+    demo: "https://f00dexpress.netlify.app/",
+  },
+  {
+    id: "project-2",
     name: "TicTacToe",
     description: "Play this classic game agaisnt a friend or an unbeatable AI.",
     tags: [
@@ -141,7 +163,7 @@ const projects = [
     demo: "https://tictactoe-nawedzaman.vercel.app/",
   },
   {
-    id: "project-2",
+    id: "project-3",
     name: "Quizzey",
     description: "A fun quiz app.",
     tags: [
@@ -163,7 +185,7 @@ const projects = [
     demo: "https://quizeey.netlify.app/",
   },
   {
-    id: "project-3",
+    id: "project-4",
     name: "Vendor Dashboard",
     description: "This is a dashboard to maintain vendors.",
     tags: [
@@ -183,28 +205,6 @@ const projects = [
     image: vendor,
     repo: "https://github.com/nawedzaman/vendor-frontend",
     demo: "https://vendor-dashboard.onrender.com/",
-  },
-  {
-    id: "project-4",
-    name: "Voot",
-    description: `A clone site for OTT platform VOOT`,
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: voot,
-    repo: "https://github.com/nawedzaman/voot",
-    demo: "https://movie-metro.netlify.app/",
   },
   {
     id: "project-5",

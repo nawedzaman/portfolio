@@ -49,7 +49,7 @@ import tictactoe from "./projects/tictactoe.png";
 import quizey from "./projects/quizey.png";
 import vendor from "./projects/vendor.png";
 import akprasha from "./projects/akprasha.png";
-import voot from "./projects/movie-metro.png";
+import foodexpress from "./projects/food-express.png";
 
 export {
   bwmap,
@@ -90,7 +90,7 @@ export {
   tictactoe,
   akprasha,
   quizey,
-  voot,
+  foodexpress,
   vendor,
   space,
   coverhunt,
